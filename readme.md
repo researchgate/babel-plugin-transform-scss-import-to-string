@@ -12,7 +12,7 @@ const sideEffectStyles = '.foo { color: red; }';
 ## Quick start
 Install the plugin first:
 ```
-npm install --save-dev babel-plugin-styled-components
+npm install --save-dev @researchgate/babel-plugin-transform-scss-import-to-string
 ```
 
 Add it to your babel configuration:
