@@ -1,0 +1,10 @@
+$primary-color: cyan;
+$base-font-size: 16px;
+
+.foo {
+  color: $primary-color;
+}
+
+.bar {
+  font-size: $base-font-size * 2;
+}
