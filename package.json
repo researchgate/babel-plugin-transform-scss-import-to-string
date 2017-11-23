@@ -1,23 +1,29 @@
 {
   "name": "@researchgate/babel-plugin-transform-scss-import-to-string",
-  "version": "0.1.0",
-  "description":
-    "Babel plugin for transforming SCSS imports to static variable declarations with transpiled CSS string",
+  "version": "0.1.1",
+  "description": "Babel plugin for transforming SCSS imports to static variable declarations with transpiled CSS string",
   "main": "lib/index.js",
-  "files": ["lib/", "readme.md"],
+  "files": [
+    "lib/",
+    "readme.md"
+  ],
   "scripts": {
     "test": "jest"
   },
   "repository": "researchgate/babel-plugin-transform-scss-import-to-string",
-  "keywords": ["babel", "scss", "css", "inline", "transform"],
+  "keywords": [
+    "babel",
+    "scss",
+    "css",
+    "inline",
+    "transform"
+  ],
   "author": "Sergey Bekrin <sergey@bekrin.me>",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string/issues"
+    "url": "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string/issues"
   },
-  "homepage":
-    "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string#readme",
+  "homepage": "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "jest": "^21.2.1",
