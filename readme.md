@@ -1,4 +1,9 @@
-# `babel-plugin-transform-scss-import-to-string`
+# babel-plugin-transform-scss-import-to-string
+<a href="https://travis-ci.org/researchgate/babel-plugin-transform-scss-import-to-string"><img alt="Build Status" src="https://travis-ci.org/researchgate/babel-plugin-transform-scss-import-to-string.svg?branch=master"></a>
+<a href="https://codecov.io/gh/researchgate/babel-plugin-transform-scss-import-to-string"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/researchgate/babel-plugin-transform-scss-import-to-string.svg"></a>
+<a href="https://greenkeeper.io/"><img alt="Greenkeeper badge" src="https://badges.greenkeeper.io/researchgate/babel-plugin-transform-scss-import-to-string.svg"></a>
+<a href="https://www.npmjs.com/package/@researchgate/babel-plugin-transform-scss-import-to-string"><img alt="NPM version" src="https://img.shields.io/npm/v/@researchgate/babel-plugin-transform-scss-import-to-string.svg"></a>
+
 Babel transform plugin for replacing *.scss imports with static variable
 declaration as css string.
 
