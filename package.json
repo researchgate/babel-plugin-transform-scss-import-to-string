@@ -26,7 +26,7 @@
   "homepage": "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "jest": "^21.2.1",
+    "jest": "^22.0.0",
     "node-sass": "^4.7.2"
   },
   "peerDependencies": {
