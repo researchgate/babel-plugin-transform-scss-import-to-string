@@ -16,3 +16,5 @@ exports[`babel-plugin-transform-scss-import-to-string skips non-default import s
 
 console.log(foo);"
 `;
+
+exports[`babel-plugin-transform-scss-import-to-string supports custom node-sass options 1`] = `"const precision = '.baz {\\\\n  transform: translateX(1.877px); }\\\\n';"`;

@@ -1,0 +1,5 @@
+$some-value: 1.87654321px;
+
+.baz {
+  transform: translateX($some-value);
+}
