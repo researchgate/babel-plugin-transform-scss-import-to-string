@@ -20,7 +20,11 @@ const sideEffectStyles = '.foo { color: red; }';
 
 Install the plugin first:
 
-```
+```sh
+# yarn
+yarn add --dev @researchgate/babel-plugin-transform-scss-import-to-string
+
+# npm
 npm install --save-dev @researchgate/babel-plugin-transform-scss-import-to-string
 ```
 
@@ -63,12 +67,12 @@ console.log(foo); // -> .foo { font-size: 42px; }
 
 ## Requirements
 
-* `node-sass`, which you should install explicitly
-* `babel-core`, which you should already have with babel configured
+- `node-sass`, which you should install explicitly
+- `babel-core`, which you should already have with babel configured
 
 ## Caveats
 
-* This module shouldn't be used with webpack and sass-loader since babel
+- This module shouldn't be used with webpack and sass-loader since babel
   transform would take first place in build process.
-* Every import transpiled with node-sass as an independent file, so you have to
+- Every import transpiled with node-sass as an independent file, so you have to
   explicitly import dependencies if you used to have common context before.
