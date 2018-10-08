@@ -27,7 +27,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "jest": "^23.6.0",
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.3"
   },
   "peerDependencies": {
     "babel-core": ">=6",
