@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/babel-plugin-transform-scss-import-to-string",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Babel plugin for transforming SCSS imports to static variable declarations with transpiled CSS string",
   "main": "lib/index.js",
   "files": [
