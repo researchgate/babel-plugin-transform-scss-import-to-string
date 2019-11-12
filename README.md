@@ -68,7 +68,7 @@ console.log(foo); // -> .foo { font-size: 42px; }
 ## Requirements
 
 - `node-sass`, which you should install explicitly
-- `babel-core`, which you should already have with babel configured
+- `@babel/core`, which you should already have with babel configured
 
 ## Caveats
 
