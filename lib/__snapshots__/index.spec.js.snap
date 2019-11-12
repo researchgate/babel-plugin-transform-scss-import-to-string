@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`babel-plugin-transform-scss-import-to-string resolves and transpiles scss file 1`] = `
-"const sideEffectStyles = '.foo {\\\\n  color: cyan; }\\\\n\\\\n.bar {\\\\n  font-size: 32px; }\\\\n';
-
+"const sideEffectStyles = \\".foo {\\\\n  color: cyan; }\\\\n\\\\n.bar {\\\\n  font-size: 32px; }\\\\n\\";
 
 if (typeof sideEffectStyles === 'string') {
   const style = document.createElement('style');
@@ -13,8 +12,7 @@ if (typeof sideEffectStyles === 'string') {
 
 exports[`babel-plugin-transform-scss-import-to-string skips non-default import specifier 1`] = `
 "import { foo } from './sample.scss';
-
 console.log(foo);"
 `;
 
-exports[`babel-plugin-transform-scss-import-to-string supports custom node-sass options 1`] = `"const precision = '.baz {\\\\n  transform: translateX(1.877px); }\\\\n';"`;
+exports[`babel-plugin-transform-scss-import-to-string supports custom node-sass options 1`] = `"const precision = \\".baz {\\\\n  transform: translateX(1.877px); }\\\\n\\";"`;
