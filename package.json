@@ -4,11 +4,12 @@
   "description": "Babel plugin for transforming SCSS imports to static variable declarations with transpiled CSS string",
   "main": "lib/index.js",
   "files": [
-    "lib/",
-    "readme.md"
+    "lib"
   ],
   "scripts": {
-    "test": "jest"
+    "lint": "spire lint",
+    "release": "spire release",
+    "test": "spire test"
   },
   "repository": "researchgate/babel-plugin-transform-scss-import-to-string",
   "keywords": [
@@ -20,17 +21,30 @@
   ],
   "author": "Sergey Bekrin <sergey@bekrin.me>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string/issues"
-  },
-  "homepage": "https://github.com/researchgate/babel-plugin-transform-scss-import-to-string#readme",
   "devDependencies": {
     "@babel/core": "7.9.6",
-    "jest": "24.9.0",
-    "node-sass": "4.14.0"
+    "@researchgate/spire-config": "4.0.0",
+    "node-sass": "4.14.0",
+    "spire": "2.1.0",
+    "spire-plugin-semantic-release": "2.1.1"
   },
   "peerDependencies": {
-    "@babel/core": ">=7",
-    "node-sass": ">=4.7"
-  }
+    "@babel/core": "^7.0.0",
+    "node-sass": "^4.7.0"
+  },
+  "spire": {
+    "extends": [
+      [
+        "@researchgate/spire-config",
+        {
+          "eslint": "node",
+          "jest": "base"
+        }
+      ]
+    ],
+    "plugins": [
+      "spire-plugin-semantic-release"
+    ]
+  },
+  "prettier": "spire-plugin-prettier/config"
 }
