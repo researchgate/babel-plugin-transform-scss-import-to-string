@@ -22,7 +22,7 @@
   "author": "Sergey Bekrin <sergey@bekrin.me>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.9.6",
+    "@babel/core": "7.10.0",
     "@researchgate/spire-config": "4.0.3",
     "node-sass": "4.14.1",
     "spire": "2.1.4",
