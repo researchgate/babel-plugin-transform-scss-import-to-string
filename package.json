@@ -23,7 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.11.1",
-    "@researchgate/spire-config": "5.0.4",
+    "@researchgate/spire-config": "5.0.6",
     "node-sass": "4.14.1",
     "spire": "3.0.2",
     "spire-plugin-semantic-release": "3.0.2"
