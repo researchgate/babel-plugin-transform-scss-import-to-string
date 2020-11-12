@@ -25,7 +25,7 @@
     "@babel/core": "7.12.3",
     "@researchgate/spire-config": "6.0.2",
     "node-sass": "4.14.1",
-    "spire": "3.1.2",
+    "spire": "3.2.1",
     "spire-plugin-semantic-release": "3.0.2"
   },
   "peerDependencies": {
