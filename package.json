@@ -24,13 +24,13 @@
   "devDependencies": {
     "@babel/core": "7.18.9",
     "@researchgate/spire-config": "7.0.0",
-    "node-sass": "5.0.0",
+    "node-sass": "7.0.1",
     "spire": "3.2.3",
     "spire-plugin-semantic-release": "3.2.3"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
-    "node-sass": "^4.7.0 || ^5.0.0"
+    "node-sass": "^4.7.0 || ^5.0.0 || ^7.0.0"
   },
   "spire": {
     "extends": [
