@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '10', '12', '14' ]
+        node: [ '14', '16', '18' ]
     name: Running Node.js v${{ matrix.node }}
     steps:
       - uses: actions/checkout@v3
