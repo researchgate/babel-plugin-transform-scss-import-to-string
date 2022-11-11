@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "7.19.3",
     "@researchgate/spire-config": "7.0.0",
-    "node-sass": "5.0.0",
+    "node-sass": "7.0.0",
     "spire": "3.2.3",
     "spire-plugin-semantic-release": "3.2.3"
   },
